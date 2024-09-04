@@ -1,0 +1,35 @@
+.primary__button_arrow {
+  padding: 20px 42px;
+  background: transparent;
+  border-radius: 100px;
+  border: 1px solid var(--white);
+  outline: none;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  color: var(--white);
+  transition: 0.4s all ease-in-out;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.primary__button_arrow svg {
+  transition: 0.4s all ease-in-out;
+}
+
+.primary__button_arrow:hover svg path {
+  transition: 0.4s all ease-in-out;
+  stroke: var(--black) !important;
+}
+
+.primary__button_arrow:hover {
+  background: var(--white);
+  color: var(--black);
+}
+
+@media (max-width: 500px) {
+  .primary__button_arrow {
+    padding: 14px 32px;
+  }
+}
