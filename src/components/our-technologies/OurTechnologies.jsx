@@ -11,7 +11,7 @@ const OurTechnologies = () => {
           <h2 className={styles.technologies__wrapper_title}>
             Our technologies
           </h2>
-          <div className={styles.technologies__wrapper_main}>
+          {/* <div className={styles.technologies__wrapper_main}>
             <div className={styles.technologies__main_dashboard}>
               <h2 className={styles.technologies__dashboard_title}>
                 Consistent code from browser to backend
@@ -44,14 +44,14 @@ const OurTechnologies = () => {
                 />
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className={styles.technologies__sliders}>
-        {technologies.map((technologyBlocks) => (
-          <div className={styles.technologies__slider_block}>
-            {technologyBlocks.map((technologyBlock) => (
-              <div className={styles.technologies__slider_item}>
+        {technologies.map((technologyBlocks, index) => (
+          <div key={index} className={styles.technologies__slider_block}>
+            {technologyBlocks.map((technologyBlock, index) => (
+              <div key={index} className={styles.technologies__slider_item}>
                 <img
                   src={technologyBlock.image_url}
                   alt="technology logo"

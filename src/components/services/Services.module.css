@@ -135,6 +135,9 @@
 }
 
 @media (max-width: 600px) {
+  .services__section {
+    padding-bottom: 50px;
+  }
   .services__heading_info {
     gap: 14px;
   }
