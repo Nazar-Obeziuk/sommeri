@@ -48,7 +48,7 @@ const OurTechnologies = () => {
         </div>
       </div>
       <div className={styles.technologies__sliders}>
-        {technologies.map((technologyBlocks, index) => (
+        {/* {technologies.map((technologyBlocks, index) => (
           <div key={index} className={styles.technologies__slider_block}>
             {technologyBlocks.map((technologyBlock, index) => (
               <div key={index} className={styles.technologies__slider_item}>
@@ -63,7 +63,139 @@ const OurTechnologies = () => {
               </div>
             ))}
           </div>
-        ))}
+        ))} */}
+        <div className={styles.technologies__slider_block}>
+          <div className={styles.technologies__slider_item}>
+            <img
+              src="../../images/html-icon.svg"
+              alt="technology logo"
+              className={styles.technologies__item_logo}
+            />
+            <span className={styles.technologies__item_text}>HTML</span>
+          </div>
+          <div className={styles.technologies__slider_item}>
+            <img
+              src="../../images/html-icon.svg"
+              alt="technology logo"
+              className={styles.technologies__item_logo}
+            />
+            <span className={styles.technologies__item_text}>HTML</span>
+          </div>
+          <div className={styles.technologies__slider_item}>
+            <img
+              src="../../images/html-icon.svg"
+              alt="technology logo"
+              className={styles.technologies__item_logo}
+            />
+            <span className={styles.technologies__item_text}>HTML</span>
+          </div>
+          <div className={styles.technologies__slider_item}>
+            <img
+              src="../../images/html-icon.svg"
+              alt="technology logo"
+              className={styles.technologies__item_logo}
+            />
+            <span className={styles.technologies__item_text}>HTML</span>
+          </div>
+          <div className={styles.technologies__slider_item}>
+            <img
+              src="../../images/html-icon.svg"
+              alt="technology logo"
+              className={styles.technologies__item_logo}
+            />
+            <span className={styles.technologies__item_text}>HTML</span>
+          </div>
+          <div className={styles.technologies__slider_item}>
+            <img
+              src="../../images/html-icon.svg"
+              alt="technology logo"
+              className={styles.technologies__item_logo}
+            />
+            <span className={styles.technologies__item_text}>HTML</span>
+          </div>
+          <div className={styles.technologies__slider_item}>
+            <img
+              src="../../images/html-icon.svg"
+              alt="technology logo"
+              className={styles.technologies__item_logo}
+            />
+            <span className={styles.technologies__item_text}>HTML</span>
+          </div>
+          <div className={styles.technologies__slider_item}>
+            <img
+              src="../../images/html-icon.svg"
+              alt="technology logo"
+              className={styles.technologies__item_logo}
+            />
+            <span className={styles.technologies__item_text}>HTML</span>
+          </div>
+        </div>
+        <div className={styles.technologies__slider_block}>
+          <div className={styles.technologies__slider_item}>
+            <img
+              src="../../images/html-icon.svg"
+              alt="technology logo"
+              className={styles.technologies__item_logo}
+            />
+            <span className={styles.technologies__item_text}>HTML</span>
+          </div>
+          <div className={styles.technologies__slider_item}>
+            <img
+              src="../../images/html-icon.svg"
+              alt="technology logo"
+              className={styles.technologies__item_logo}
+            />
+            <span className={styles.technologies__item_text}>HTML</span>
+          </div>
+          <div className={styles.technologies__slider_item}>
+            <img
+              src="../../images/html-icon.svg"
+              alt="technology logo"
+              className={styles.technologies__item_logo}
+            />
+            <span className={styles.technologies__item_text}>HTML</span>
+          </div>
+          <div className={styles.technologies__slider_item}>
+            <img
+              src="../../images/html-icon.svg"
+              alt="technology logo"
+              className={styles.technologies__item_logo}
+            />
+            <span className={styles.technologies__item_text}>HTML</span>
+          </div>
+          <div className={styles.technologies__slider_item}>
+            <img
+              src="../../images/html-icon.svg"
+              alt="technology logo"
+              className={styles.technologies__item_logo}
+            />
+            <span className={styles.technologies__item_text}>HTML</span>
+          </div>
+          <div className={styles.technologies__slider_item}>
+            <img
+              src="../../images/html-icon.svg"
+              alt="technology logo"
+              className={styles.technologies__item_logo}
+            />
+            <span className={styles.technologies__item_text}>HTML</span>
+          </div>
+          <div className={styles.technologies__slider_item}>
+            <img
+              src="../../images/html-icon.svg"
+              alt="technology logo"
+              className={styles.technologies__item_logo}
+            />
+            <span className={styles.technologies__item_text}>HTML</span>
+          </div>
+          <div className={styles.technologies__slider_item}>
+            <img
+              src="../../images/html-icon.svg"
+              alt="technology logo"
+              className={styles.technologies__item_logo}
+            />
+            <span className={styles.technologies__item_text}>HTML</span>
+          </div>
+        </div>
         <div className={styles.technologies__sliders_shadow}></div>
       </div>
     </div>
